@@ -8,7 +8,7 @@ contract Assignment7 is ERC20,Ownable {
     // Constructor to initialize the token
     // Fill in the parameters for the token name and symbol
 
-    constructor(string memory _name,string memory _symbol) ERC20(_name,_symbol) Ownable(msg.sender) {
+    constructor(string memory _name,string memory _symbol) ERC20(_name,_symbol) {
     }
 
     // Function to mint tokens
